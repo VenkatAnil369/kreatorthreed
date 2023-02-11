@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/cloud-main.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>Cloud</title>
+</head>
+    <script>   
+    $(document).ready(function () {
+    
+        $('#nav_bar').load("nav-bar.html");
+        $('#product_navbar').load("product-navbar.html");
+        $('#footer-page').load("./footer-page.html");
+    
+    });
+    </script>
+    <style>
+        .product_nav_elements{
+            padding-top: 13vh;
+        }
+    </style>
+<body>
+   <div class="cloud-page-container">
+    <section>
+        <div id="nav_bar" ></div>
+    </section>
+    <section class="pro_nav">
+        <div id="product_navbar"></div>
+    </section>
+    <div class="dash-board-div-container">
+        <div class="dash-board-div">
+            <img src="./assets/cloud-dash.svg" alt="dash" id="dash-image">
+        </div>
+        <div class="dash-text-div">
+            <p class="dash-text"><span>cloud</span>.kreator3d.com</p>
+        </div>
+    </div>
+    <div class="laptop">
+        <div class="laptop-screen">
+            <img src="./assets/laptop-render.svg" alt="" id="render">
+            <img src="./assets/laptop-screen.svg" alt="" id="screen">
+    
+        </div>
+        <div class="laptop-text-div">
+            <p>Create your <br> account and you <br> are ready to go!</p>
+        </div>
+    
+    </div>
+    <section>
+        <!-- Footer -->
+        <div id="footer-page">
+            footer finally
+        </div>
+    </section>
+
+     </div>
+     
+       
+
+   </div>
+    <script src="./cloud-main.js"></script>
+</body>
+
+</html>

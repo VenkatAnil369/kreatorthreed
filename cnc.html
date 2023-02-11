@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNC</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="./css/cnc.css">
+    <script>   
+        $(document).ready(function () {
+        
+            $('#nav_bar').load("nav-bar.html");
+            $('#product_navbar').load("product-navbar.html");
+            $('#footer-page').load("./footer-page.html");
+        
+        });
+        </script>
+</head>
+<body>
+  
+    <div class="CNC">
+        <section>
+            <div id="nav_bar" ></div>
+        </section>
+        <section class="pro_nav">
+            <div id="product_navbar"></div>
+        </section>
+        <div class="CNC_background">
+            <div class="CNC_coming_soon">
+                <div class="CNC_clock">
+                    <div class="CNC_coming_soon_text">
+                        <p>Our new product is<p><br><p class="coming_soon">Coming Soon</p><br><p>Stay tuned!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div id="footer-page"></div>
+        </section>
+    </div>
+</body>
+</html>

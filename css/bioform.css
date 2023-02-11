@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+}
+
+.bioform{
+    height: 605px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.bioform_left{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.bioform_SVG{
+    align-items: center;
+    height: 80%;
+    padding-left: 5%;
+    /* border: 1px solid red; */
+}
+#bioform_image1{
+    position:absolute;
+    top:10%;
+    padding:2%;
+    /* width: 5%; */
+}
+#bioform_image2 {
+    position: absolute;
+    top: 54%;
+    padding: 5%;
+    /* width: 4%; */
+    left: 13%;
+}
+#bioform_image3 {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    /* width: 5%; */
+    }
+#bioform_image4 {
+    position: absolute;
+    padding: 5%;
+    top: 24%;
+    left: 2%;
+    /* width: 4%; */
+}
+#bioform_image5 {
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    padding: 2%;
+    /* width: 4%; */
+}
+#bioform_image6 {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    padding: 2%;
+    /* width: 4%; */
+}
+#bioform_image7 {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    padding: 2%;
+    /* width: 5%; */
+}
+#bioform_image8 {
+    position: absolute;
+    top: 37%;
+    left: 34%;
+    padding: 2%;
+    /* width: 5%; */
+}
+#bioform_image9 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    padding: 2%;
+    /* width: 4%; */
+}
+#bioform_image10 {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    padding: 2%;
+    /* width: 4%; */
+}
+#bioform_image11 {
+    position: absolute;
+    top: 47%;
+    left: 28%;
+    padding: 2%;
+    /* width: 4%; */
+}
+#bioform_image12 {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    padding: 2%;
+    /* width: 3%; */
+}
+#bioform_image13 {
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    padding: 2%;
+    /* width: 3%; */
+}
+#bioform_image14{
+    position:absolute;
+    top:7%;
+    left: 30%;
+    padding:2%;
+    /* width: 5%; */
+}
+#bioform_image15 {
+    position: absolute;
+    top: 48%;
+    padding: 5%;
+    /* width: 4%; */
+    left: 6%;
+}
+.bioform_title{
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 12%;
+    top: 35%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 79px;
+    line-height: 118px;
+
+    color: #05BC6C;
+
+    /* border: 1px solid red; */
+}
+.green {
+  color: #05BC6C;
+  margin: 0;
+}
+
+.black {
+    color:black;
+
+  margin: 0;
+}
+.bioform_know_more_button{
+    position: relative;
+    padding: 3%;
+    top: 25%;
+    padding-left: 35%;
+
+}
+#know_more_button{
+    color: black;
+    background-color: #05BC6C;
+
+}
+button:hover{
+    text-decoration: none;
+    color: white;
+    border: 1.2px solid #008048;
+}
+.bioform_right{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.bioform_tagline{
+    height: 5%;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+.bioform_tagline p{
+    margin: 40px;
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.bioform_render{
+    height: 90%;
+    /* border: 1px solid black; */
+}
+.bioform_render img{
+    height: 100%;
+    width: 100%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+button a:hover{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 100%;
+}

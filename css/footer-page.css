@@ -1,0 +1,155 @@
+/* Styling of Parent DIV */
+.footer {
+  z-index: 2;
+  height: 40vh;
+  position: absolute;
+  width: 100%;
+  background-color: #05bc6c;
+  font-family: 'poppins';
+}
+
+/* Logo section begins */
+.footer-page-logo {
+  position: absolute;
+  background-color: #05bc6c;
+  width: 33%;
+  height: 50%;
+  padding-top: 2.5%;
+}
+
+
+.logo {
+  background-color: #05bc6c;
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  height: 100%;
+  width: 35%;
+}
+
+/* Products section starts */
+.footer-page-products {
+  background-color: #05bc6c;
+  left: 33%;
+  position: absolute;
+  width: 33%;
+  height: 100%;
+  text-align: left;
+  line-height: 3vmax;
+}
+
+
+.product-text p {
+  background-color: #05bc6c;
+  /* width: 8vmax; */
+  /* height: 1vmax; */
+  text-align: left;
+  font-weight: 200;
+  font-size: 1.2vmax;
+  line-height: 2vmax;
+  padding-bottom: 2%;
+
+}
+.product-text h3 {
+  background-color: #05bc6c;
+padding-bottom: 10px;
+color:white
+
+}
+.footer-line {
+  background-color: #05bc6c;
+  background: white;
+  position: absolute;
+  top: 15%;
+  height: 65%;
+  width: 0%;
+  border: 2px solid white;
+
+}
+
+.product-text {
+  background-color: #05bc6c;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.product-text a {
+  background-color: #05bc6c;
+  color: white;
+  text-decoration: none;
+}
+
+/* About us section begins */
+.footer-page-about-us {
+  background-color: #05bc6c;
+  left: 66%;
+  position: absolute;
+  width: 33%;
+  height: 100%;
+  text-align: right;
+  line-height: 3vmax;
+
+}
+
+.footer-page-about-us p {
+  background-color: #05bc6c;
+  width: 8vmax;
+  height: 1vmax;
+  font-weight: 200;
+  font-size: 1.2vmax;
+  line-height: 1vmax;
+  padding-bottom: 8%;
+
+}
+
+.about-us-text {
+  background-color: #05bc6c;
+  position: absolute;
+  text-align: left;
+  top: 20%;
+  left: 48%;
+}
+.about-us-text h3{
+  padding-bottom: 15%;
+}
+
+.about-us-text a {
+  background-color: #05bc6c;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Social media section Starts */
+.social-media-icon ul {
+  background-color: #05bc6c;
+  position: absolute;
+  height: 70%;
+  width: 50%;
+  left: 20%;
+  top: 20%;
+  list-style-type: none;
+  display: flex;
+}
+
+.social-media-icon {
+  background-color: #05bc6c;
+  position: absolute;
+  left: 33%;
+  top: 70%;
+  width: 66%;
+  height: 30%;
+}
+
+.social-media-icon img {
+  background-color: #05bc6c;
+  height: 2vmax;
+  width: 2vmax;
+  fill: #FFFF;
+}
+
+.social-media-icon li {
+  background-color: #05bc6c;
+  padding-right: 10%;
+}

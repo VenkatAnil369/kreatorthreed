@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:ital,wght@0,500;1,300&family=Water+Brush&display=swap");
+* {
+  margin: 0%;
+}
+body {
+  background: rgba(46, 46, 46, 1);
+  font-family: 'poppins', sans-serif;
+  overflow: hidden;
+}
+.a1-hotend {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.al-hotend-content {
+  display: inline-block;
+  width: 50vw;
+  height: 100vh;
+  left: 0%;
+  margin-right:5%;
+  padding:20%;
+}
+.al-hotend-content h1 {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #05BC6C;
+  font-size: 6vmin;
+  /* margin-right:5%; */
+}
+#a1-hotend-paragraph1 {
+  z-index: 1;
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  color: rgba(255, 255, 255, 1);
+  font-size:4vmin;
+}
+#a1-hotend-paragraph2 {
+  z-index: 1;
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  color: rgba(255, 255, 255, 1);
+  font-size: 4vmin;
+}
+.a1-hotend-image  img{
+
+  position: absolute;
+  display: inline-block;
+  width: 50vw;
+  height: 100vh;
+  top: 0;
+  left: 50%;
+}

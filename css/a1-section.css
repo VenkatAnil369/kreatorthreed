@@ -1,0 +1,109 @@
+
+
+.a1-section{
+    font-family: "poppins",sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;  
+    background:  white;
+}
+.a1-descriptive{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: 2;
+    left:33%;
+    /* margin-left: 33%; */
+    top: -10%;
+    
+}
+.a1-title{
+    color:white;
+    font-size: 18vmin;
+    font-weight: 300;
+    padding-top: 90%;
+
+}
+.a1-tag-line{
+    color:white;
+    font-size: 5vmin;
+    font-weight: 100;
+    width: 50vmin;
+}
+.a1-tag-line-sub{
+    color:#05BC6C;
+
+}
+.a1-small-circle{
+    position: absolute;
+    width: 101.71vh;
+    height: 101.71vh;
+    left: -20.52vh;
+    top: -20.26vh;
+    border-radius: 100%;
+    mix-blend-mode: normal;
+    background: rgba(30, 30, 30, 0.3);
+    right:100%;
+}
+.a1-big-circle{
+    position: absolute;
+    height: 122.89vh;
+    left: -41.44vh;
+    top: -29.21vh;
+    border-radius: 100%;
+    width:122.89vh;
+    mix-blend-mode: normal;
+    background: #B8B8B8;
+    /*#1E1E1E;*/
+}
+.a1-corner-triangle{
+    position: absolute;
+    width: 37.76%;
+    height: 0%;
+    top: 0;
+    left: -4%;
+    background: transparent;
+    transform: rotate(0deg);
+    transform: scaleX(-1);
+	border-left: 32.89vmin ;
+	border-right: 32.89vmin solid #05BC6C;
+	border-bottom: 65.78vmin solid transparent;
+    z-index: 2;
+}
+.a1-gradient{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(180deg, #1E1E1E 4.68%, rgba(30, 30, 30, 0) 60.13%);
+    z-index: 1;
+}
+.a1-render{
+    /* z-index: ; */
+    /* position: absolute; */
+    /* margin-top: 10%; */
+    height: 90%;
+    width:80%;
+}
+.a1-render-image{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    width:50%;
+    height:100%;
+    /* margin-top: 0%; */
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #007b46;
+}
+/* .a{
+    height: 100%;
+    top: 100%;
+} */

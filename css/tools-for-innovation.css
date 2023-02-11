@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:ital,wght@0,500;1,300&family=Water+Brush&display=swap");
+
+.tools-for-innovation {
+  /* margin-top: 0%; */
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Poppins";
+  height: 100%;
+  background-color: black;
+  
+}
+
+
+#tools-for-innovation-image1 img{
+ 
+  position: absolute;
+  width:45%;
+  height: 100%;
+  /* left: %; */
+  bottom:0%; 
+  /* z-index: 44; */
+}
+
+
+
+#tools-for-innovation-image2 img{
+  position: absolute;
+    width: 65%;
+    height: 100%;
+    bottom: 0%;
+    left: 13.5%;
+    /* z-index: 45; */
+}
+
+
+
+#tools-for-innovation-content p {
+  position: absolute;
+  font-family: 'Poppins';
+  bottom:10%;
+  right: 8%;
+   font-size:3vw;
+  font-family: "Poppins", "sans-serif";
+  color: #05bc6c;
+  /* z-index: 100; */
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* Global */
+* {
+  /* position: relative; */
+  /* margin: 0;
+  padding: 0; */
+  font-family: 'Poppins', normal;
+}
+
+/* #mainNav {
+  position: relative;
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  width: 100%;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 3%;
+  background-color: #000000;
+  width: 94.5%;
+}
+
+
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1vw;
+
+}
+
+
+header a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130%;
+  line-height: 121.19%;
+  color: #FFFFFF;
+}
+
+header a:active{
+  color: #05BC6C;
+}
+
+header a:hover {
+  color: #05BC6C;
+  text-decoration: none;
+} */
+
+.nav-text{
+  color: white;
+  text-decoration: none;
+}
+
+/* .nav-text a:before {
+  color: white;
+}
+
+.nav-text a:after {
+  background: red;
+  transition: ease .1s;
+  -webkit-transition: ease .1s;
+} */

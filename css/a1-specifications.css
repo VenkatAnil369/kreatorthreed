@@ -1,0 +1,115 @@
+*{
+    margin:0%;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    background-image: url("../assets/specification-background.png");
+    background-size: cover ;
+    /* overflow:hidden; */
+}
+
+.a1-Specifications{
+    width: 100%;
+    /* background-color: #222222; */
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    margin-top: -1rem;
+}
+.a1-specifications-title {
+    
+    width: 90%;
+    max-width: 70rem;
+    margin: 1rem auto;
+    display: flex;
+    padding-bottom: 50px;
+  }
+  
+.a1-specifications-title h2{
+    color: #05bc6c;
+    /* color:rgba(255, 255, 255, 1); */
+    position:absolute;
+    top:0%;
+    left:6%;
+    display:flex;
+    font-family:"poppins",sans-serif;
+    font-size:4vmin;
+}
+.a1-specifications .big-table {
+    width: 90%;
+    max-width: 70rem;
+    margin: 2rem auto 0 auto;
+    display: flex;
+}
+.specs-nav {
+    width: 15rem;
+}
+.specs-nav ul {
+    padding: 0 0 2rem 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+.specs-nav ul li {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+    color: #bbb;
+    cursor: pointer;
+    border-radius: 4px 0 0 0px;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid #2a2a2a;
+}
+.specs-nav ul li.active {
+    background-color:rgba(77, 77, 77, 0.75);
+    color: rgba(5, 188, 108, 1);
+}
+.specs-nav ul li:hover {
+    color: #fff;
+  }
+
+
+.specs-nav ul li:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+
+.specs-detail {
+    width: 55rem;
+    height:30rem;
+    background-color: rgba(77, 77, 77, 0.65);
+    border-radius: 0 4px 4px 0;
+    box-sizing: border-box;
+    padding: 2rem 1rem 3rem 1rem;
+}
+.specs-detail .title {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+.spec-container {
+    width: 100%;
+    margin: 1.5rem auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.spec-container .spec {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.8rem 2.0rem;
+}
+.spec-container .spec h3 {
+    margin: 0;
+    /* margin-bottom: 0rem; */
+    color: #fff;
+    font-size: 0.8rem;
+  }
+.spec-container .spec p {
+    margin: 0;
+    color: #bbb;
+    font-size: 0.8rem;
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/a1-specifications.css">
+    <title>a1-specifications</title>
+    <style>
+         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:ital,wght@0,500;1,300&family=Water+Brush&display=swap");
+    </style>
+</head>
+<body>
+    <div class="a1-specifications">
+        <div class="a1-specifications-title">
+            <h2>Specifications</h2>
+        </div>
+         <div class="big-table">
+         <!--NAVIGATION BAR-->
+         <div class="specs-nav">
+          <ul class="os-regular">
+            <li class="specs-nav-item active" onclick="showSpecs('Printer_Properties',this)">
+              Printer Properties
+            </li>
+            <li class="specs-nav-item " onclick="showSpecs('Printing_Properties')">
+              Printing Properties
+            </li>
+            <li class="specs-nav-item" onclick="showSpecs('Physical_Dimension')">
+              Physical Dimensions
+            </li>
+            <li class="specs-nav-item" onclick="showSpecs('Software')">
+              Software
+            </li>
+            
+          </ul>
+        </div>
+        <div class="specs-detail">
+            <div class="title os-regular" id="spec-category-title">Title</div>
+            <div class="spec-container" id="spec-container"></div>
+          </div>
+        </div>
+       
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+   <script src="Js/a1-specifications.js"></script>
+     
+ 
+</body>
+</html>

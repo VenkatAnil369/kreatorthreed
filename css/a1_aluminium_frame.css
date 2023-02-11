@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    border: 0%;
+    /* background-color: #2E2E2E; */
+    font-family: 'Poppins';
+    color: white;
+}
+/* body{
+    overflow: hidden;
+} */
+.a1_aluminium_frame{
+    display: flex;
+    height: 100vh;
+    padding-top: 5%;
+}
+.a1_aluminium_frame_left{
+    height: 100vh;
+    align-items: center;
+    width: 50%;
+}
+.a1_aluminium_frame_right{
+    height: 100vh;
+    align-items: center;
+    /* width: 50%; */
+}
+.a1_aluminium_frame_tagline{
+    /* position: absolute; */
+    /* top: 30%; */
+    /* left: 10%; */
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 25vmin;
+}
+.a1_aluminium_frame_left_bottom{
+    position: relative;
+}
+.a1_aluminium_frame_left_light {
+    padding-left: 30%;
+    padding-bottom: 3vmin;
+    align-items: center;
+    /* position: absolute; */
+    display: flex;
+    font-size: 6vmin;
+    /* top: 60%; */
+    /* left: 20%; */
+}
+.a1_aluminium_frame_left_feather{
+    /* position: absolute; */
+    /* padding: 2%; */
+    /* height: 183px; */
+    /* left: 10%; */
+    /* top: 60%; */
+    
+    font-family: 'Font Awesome 6 Free';
+    color: #05BC6C;
+
+}
+.a1_aluminium_frame_left_light_text{
+    padding-left: 3vmin;
+}
+.a1_aluminium_frame_left_durable {
+    padding-left: 28%;
+    display: flex;
+    /* position: absolute; */
+    font-size: 6vmin;
+    /* top: 80%; */
+    /* left: 20%; */
+}
+.a1_aluminium_frame_left_hammer{
+    /* position: absolute; */
+    padding: 2%;
+    /* height: 183px; */
+    /* left: 10%; */
+    /* top: 80%; */
+    font-family: 'Font Awesome 6 Free';
+    color: #05BC6C;
+
+}
+.a1_aluminium_frame_left_durable_text{
+    padding-left: 1vmin;
+}
+.a1_aluminium_frame_tagline p{ 
+    font-size: 6vmin;
+    margin: 6vmin;
+}
+.aluminium_frame{
+    padding-top: 5vmin;
+    align-items: center;
+    vertical-align: middle;
+    width: 50%;
+    /* position: absolute;
+    width: 100vmin;
+    left: 50%;
+    top: 13%;
+    padding-right: 0%; */
+
+}
+.render_section{
+    /* z-index: ; */
+    /* position: absolute; */
+    /* margin-top: 10%; */
+    height: 90%;
+    width:80%;
+}
+.render{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width:50%;
+    height:80%;
+    /* margin-top: 0%; */
+}

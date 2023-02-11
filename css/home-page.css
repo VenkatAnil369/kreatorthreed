@@ -1,0 +1,62 @@
+/* all the heights mentioned are given according to the design which is present in the Figma */
+/* colors are just meant for differentiation it will be later replace when the final thing is done */
+/* Note the class names carefully */
+
+#main-div{
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+#nav-bar{
+    position: relative;
+    /* background-color: aqua; */
+    width: 100%;
+    font-style: bold;
+}
+header{
+    width: 100%;
+}
+#tools-for-innovation{
+    position: relative;
+    height: 100vh;
+    
+    /* background-color: blue; */
+}
+#usp{
+    position: relative;
+    height: 100vh;
+    /* background-color: pink; */
+}
+#a1{
+    position: relative;
+    height: 100vh;
+    /* background-color: blueviolet; */
+}
+#cloud{
+    position: relative;
+    height: 100vh;
+    /* background-color: chartreuse; */
+}
+#bio-form{
+    position: relative;
+    height: 100vh;
+    /* background-color: khaki; */
+}
+#testimonials{
+    position: relative;
+    height: 100vh;
+    /* background-color: grey; */
+}
+#community-page{
+    position: relative;
+    height: 100vh;
+    /* background-color: fuchsia;   */
+}
+#footer-page{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    /* background-color: lawngreen; */
+}

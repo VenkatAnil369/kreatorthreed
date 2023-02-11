@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1</title>
+    <link rel="icon" href="assets/A1_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/a1_page.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:ital,wght@0,500;1,300&family=Water+Brush&display=swap");
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#nav_bar').load("nav-bar.html");
+            $('#product_navbar').load("product-navbar.html");
+            $('#A1_intro').load("a1-page/A1-intro.html");
+            $('#A1_aluminium').load("a1-page/a1_aluminium_frame.html");
+            $('#A1_lucid').load("a1-page/lucid-design.html");
+            $('#A1_moveslikemagic').load("a1-page/moves-like-magic.html");
+            $('#A1_hotend').load("a1-page/a1-hotend.html");
+            $('#A1_specifications').load("a1-page/a1-specifcations.html");
+            $('#footer').load("footer-page.html");
+        });
+    </script>
+
+    <style>
+        header.nav-header {
+            width: 100vw;
+        }
+
+        .product-text p {
+            line-height: 2vmax;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <section>
+            <div id="nav_bar" ></div>
+        </section>
+        <section class="pro_nav">
+            <div id="product_navbar"></div>
+        </section>
+        <section>
+            <div id="A1_intro"></div>
+        </section>
+        <section>
+            <div id="A1_aluminium"></div>
+        </section>
+        <section>
+            <div id="A1_lucid"></div>
+        </section>
+        <section>
+            <div id="A1_moveslikemagic"></div>
+        </section>
+        <section>
+            <div id="A1_hotend"></div>
+        </section>
+        <section>
+            <div id="A1_specifications"></div>
+        </section>
+        <section>
+            <div id="footer"></div>
+        </section>
+    </div>
+</body>
+
+</html>

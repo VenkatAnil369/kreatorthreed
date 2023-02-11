@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:ital,wght@0,500;1,300&family=Water+Brush&display=swap");
+
+.testimonials{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    top: 0;
+    
+}
+.community-page{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50%;
+    bottom: 0;
+    display: flex;
+}
+.testimonial-text-div{
+    width: 100%;
+    height: 50%;
+    background: #2E2E2E;
+    color: white;
+    font-size: 3vmin; 
+}
+.testimonial-text{
+  position: absolute; 
+  width:100%;
+  top: 20%; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+.testimonial-companies{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 50%;
+}
+.testimonial-icon{
+    padding-top: 20px;
+    height: 10vh;
+    width: 10.5vw;
+}
+#testimonial-arrow{
+    position: absolute;
+    top: 40.5%;
+    left: 10%;
+    background: #2E2E2E;
+    transform: rotate(-45deg);
+    height: 5vmin;
+    width: 5vmin;
+}
+.banner-right{
+  height: 100%;
+  width: 50%;
+  background: #D8FBEC; 
+z-index: 10%;
+}
+#community-illustration{
+     height: 100%;
+     width: 100%;    
+}
+.banner-left {
+  height: 100%;
+  width: 50%;
+  background: #2E2E2E;
+  display: flex;
+}
+.banner-left-text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5vmin;
+    line-height: 3.75rem;
+    color: #FFFFFF;
+}
+#banner-curve {
+    position: absolute;
+    height: 110%;
+    left : 45%;
+    top: -1%;
+}
+#join-us-text{
+    color: #05BC6C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+#create-text{
+    color: #05BC6C;
+}
+
+.testimonials_know_more_button{
+    position: relative;
+    padding: 3%;
+    top: 25%;
+    padding-left: 35%;
+    padding-top: 20%;
+
+}
+#know_more_button{
+    color: black;
+    background-color: #05BC6C;
+
+}
+button:hover{
+    text-decoration: none;
+    color: white;
+    border: 1.2px solid #008048;
+}

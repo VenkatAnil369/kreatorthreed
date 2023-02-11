@@ -1,0 +1,90 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:ital,wght@0,600;1,300&family=Water+Brush&display=swap');
+*{
+    margin: 0;
+    
+}
+.img{
+    z-index: 999;
+}
+.cloud-page-container{
+   background-image: url(../assets/background2.svg);
+   background-size: 100% 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 200vh;
+   overflow-x: hidden;
+}
+.dash-board-div-container{
+    display: flex;
+    margin-top: 5%;
+}
+.dash-board-div{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+#dash-image{
+    width: 80%;
+}
+.dash-text-div{
+    text-align: center;
+    justify-content: center;
+    margin-top: 15%;
+ 
+}
+.dash-text-div p{
+    background: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 3vmax;
+    line-height: 55px;
+}
+.dash-text-div span{
+   color: #05BC6C;
+   background: white;
+}
+.laptop{
+  
+    width: 100%;
+    display: flex;
+
+}
+.laptop-screen{
+    position: relative;
+    display: flex;
+    width: 60%;
+}
+.laptop-text-div{
+    position: relative;
+    text-align: center;
+    width: 40%;
+    top: 40%;
+
+}
+.laptop-text-div p{
+    background: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vmax;
+  
+}
+#render{
+    background: white;
+   top: 20%;
+   left: 10%;
+
+   height: 54vh;
+   width: 54vw;
+}
+#screen{
+  position: absolute;
+  left: 12%;
+  top: 15%;
+  height: 35vh;
+  width: 40vw;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+.product_nav{
+    font-family: 'Poppins', sans-serif;
+}
+/* .image-logo:hover{
+    background-color: white;
+    box-shadow: #05BC6C;
+}
+.product_nav_elements{
+    display: flex;
+    justify-content:space-evenly;
+    padding : 1rem;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover {
+    color: white;
+}
+p{
+    text-align: center;
+} */
+
+
+
+/* Product Nav Bar */
+
+/* .product_nav {
+    height: 15vmin;
+} */
+
+.product_nav .product_nav_elements {
+    justify-content: space-evenly;
+    display: flex;
+    height: 100%;
+    /* overflow: scroll; */
+    background: #2E2E2E;
+}
+
+.product_nav .product_nav_elements ul {
+    display: flex;
+    height: 15vmin;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    padding-right: 10%;
+    margin: 0;
+    list-style-type: none;
+}
+
+.product_nav .product_nav_elements img{
+    align-items: center;
+    width: 8vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_nav .product_nav_elements .small_icon{
+    width: 12vmin;
+    height: auto;
+    padding-bottom: 1.5vmin;
+}
+
+.product_nav .product_nav_elements p{
+    text-align: center;
+    color: black;
+    font-size: 3vmin;
+    padding-top: 1vmin;
+    /* font-weight: bold; */
+}
+
+.product_nav .product_nav_elements .current_product{
+    text-align: center;
+    color: white;
+    /* font-weight: bold; */
+}
+
+
+.product_nav .product_nav_elements a{
+    /* display: block; */
+    color: white;
+    /* font-size: 15px; */
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product_nav .product_nav_elements p:hover {
+    color: rgb(135, 135, 135);
+}
+
+.pro-nav-text{
+    text-align: center;
+}
+
+#A1-product-nav{
+    padding-top: 30%;
+}
+
+#cloud-product-nav{
+    padding-top: 10%;
+}
+
+#bio-product-nav{
+    padding-top: 20%;
+}
+
+#cnc-product-nav{
+    padding-top: 15%;
+}
+
+#service-product-nav{
+    padding-top: 25%;
+}
